@@ -1,0 +1,1 @@
+Nos testes de unidade, os componentes são testados individualmentes, já no teste funcional os componentes são testados como um todo. No teste de unidade, é necessário ter conhecimento do programa. No teste funcional não é necessário qualquer conhecimento do funcionamento interno do sistema.
