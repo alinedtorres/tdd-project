@@ -1,0 +1,32 @@
+Geralmente, o processo de TDD pode ser realizado da seguinte forma:
+
+1 - Escrever o teste;
+2 - Executar o teste;
+3 - Verificar se o teste falha;
+4 - Escrever o código mínimo da aplicação;
+5 - Executar o teste novamente.
+
+Repetir os passos 3, 4 e 5 até passar.
+
+Passo extra: Refatorar o código.
+
+Porém, utilizando dois tipos de teste o processo é mais complexo, conforme abaixo:
+
+1 - Escrever o teste funcional;
+2 - Executar o teste funcional;
+3 - Verificar se o teste falha;
+4 - Se falhar, iniciar um novo ciclo:
+
+a - Escrever um teste de unidade;
+b - Executar o teste de unidade;
+c - Verificar se o teste falha;
+d - Se falhar, escrever o código mínimo da aplicação;
+e - Executar o teste novamente.
+
+Repetir os passos c, d, e até o código passar.
+
+Passo extra: Refatorar o código.
+
+Após finalizar esse ciclo, volta para o passo 3
+
+Executar o passo 3 e 4 até passar.
