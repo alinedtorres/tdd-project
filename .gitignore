@@ -6,3 +6,4 @@ __pycache__
 superlists/__init__.py
 superlists/settings.py
 superlists/wsgi.py
+accounts/migrations/0002_token.py
