@@ -5,5 +5,4 @@ __pycache__
 *.pyc
 superlists/__init__.py
 superlists/settings.py
-superlists/urls.py
 superlists/wsgi.py
